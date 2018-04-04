@@ -1,0 +1,51 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides:          zondeedit-dynjs
+# Required-Start:    
+# Required-Stop:     
+# Should-Start:     
+# Should-Stop:      
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: zoneedit-dynjs Daemon
+# Description:       zoneedit-dynjs daemon for updating ip
+#                    automatically
+### END INIT INFO
+
+# Source function library.
+. /etc/init.d/functions
+
+start() {
+   # code to start app comes here 
+   # example: daemon program_name &
+   nodejs /usr/local/share/zoneedit-dynjs.js 2&>1 >> \
+   /var/log/zoneedit-dynjs.log &
+   echo $! > /var/tmp/zoneedit-dynjs.pid
+}
+
+stop() {
+   # code to stop app comes here 
+   # example: killproc program_name
+   kill $(cat /var/tmp/zoneedit-dynjs.pid)
+}
+
+case "$1" in 
+    start)
+       start
+       ;;
+    stop)
+       stop
+       ;;
+    restart)
+       stop
+       start
+       ;;
+    status)
+       # code to check status of app comes here 
+       # example: status program_name
+       ;;
+    *)
+       echo "Usage: $0 {start|stop|status|restart}"
+esac
+
+exit 0 

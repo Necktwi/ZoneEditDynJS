@@ -59,8 +59,6 @@ function startClient() {
 	var d = new Date();
 
 	if (buildurl()) {
-		console.log('ON');
-		console.log(d.toLocaleString());
 		if (freq != 0) {
 			TimerID = setTimeout(startClient, freq*1000*60);
 		} else {

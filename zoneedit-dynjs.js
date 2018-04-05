@@ -1,6 +1,6 @@
-var XMLHttpRequest = require("/usr/local/lib/node_modules/xmlhttprequest").
+var XMLHttpRequest = require("xmlhttprequest").
 XMLHttpRequest;
-var btoa = require('/usr/local/lib/node_modules/btoa');
+var btoa = require('btoa');
 
 var TimerID;
 var dnsurl;
@@ -11,7 +11,7 @@ var IPServer = 'http://freegeoip.net/json/';
 function buildurl(){
 	var u = 'bulbmaker';
 	var p = '16026C96480B7574';
-	var h = 'home.ferryfair.com';
+	var h = 'roja-pc.ferryfair.com';
 	var w = 'NO';
 
 	dnsurl = 'http://' +

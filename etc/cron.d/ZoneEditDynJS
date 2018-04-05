@@ -1,0 +1,1 @@
+@REBOOT node /cygdrive/c/Users/Gowtham/workspace/ZoneEditDynJS/zoneedit-dynjs.js 2&>1 >> /var/log/zoneedit-dynjs.log

@@ -4,7 +4,7 @@ var btoa = require('/usr/local/lib/node_modules/btoa');
 
 var TimerID;
 var dnsurl;
-var freq = 5;
+var freq = 10.01;
 var CurrentIP = '0.0.0.0';
 var IPServer = 'http://freegeoip.net/json/';
 
@@ -28,7 +28,7 @@ function buildurl(){
       if (CurrentIP === Response.ip) {
          console.log('IP unchanged');
          delete xhr;
-         return false;
+         return true;
       } else {
          console.log('Current IP is ' + Response.ip);
          CurrentIP = Response.ip;
@@ -36,7 +36,7 @@ function buildurl(){
    } else {
       console.log('Status : ' + xhr.status);
       console.error('Failed to query current IP');
-      return false;
+      return true;
    } 
    delete xhr;
 
@@ -52,12 +52,12 @@ function buildurl(){
       return true;
    }
    delete xhr;
-   return false;
+   return true;
 }
 
 function startClient() {
 	var d = new Date();
-
+   console.log(d);
 	if (buildurl()) {
 		if (freq != 0) {
 			TimerID = setTimeout(startClient, freq*1000*60);

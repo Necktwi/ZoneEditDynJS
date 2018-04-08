@@ -1,0 +1,87 @@
+2018-04-08T10:32:45.653Z
+Echoing current IP from http://freegeoip.net/json/
+{ __deprecation_message__: 'This API endpoint is deprecated and will stop working on July 1st, 2018. For more information please visit: https://github.com/apilayer/freegeoip#readme',
+  ip: '203.214.104.207',
+  country_code: 'AU',
+  country_name: 'Australia',
+  region_code: 'ACT',
+  region_name: 'Australian Capital Territory',
+  city: 'Bonner',
+  zip_code: '2914',
+  time_zone: 'Australia/Sydney',
+  latitude: -35.1696,
+  longitude: 149.128,
+  metro_code: 0 }
+Current IP is 203.214.104.207
+Updating IP to http://@dynamic.zoneedit.com/dyn/jsclient.php?rsp_ident=zoneedit&hostname=roja-pc.ferryfair.com&wildcard=NO
+Update query status: 200
+<ERROR CODE="700" TEXT="no update required for roja-pc.ferryfair.com to 203.214.104.207" ZONE="roja-pc.ferryfair.com">
+
+2018-04-08T10:47:32.464Z
+Echoing current IP from http://freegeoip.net/json/
+{ __deprecation_message__: 'This API endpoint is deprecated and will stop working on July 1st, 2018. For more information please visit: https://github.com/apilayer/freegeoip#readme',
+  ip: '203.214.104.207',
+  country_code: 'AU',
+  country_name: 'Australia',
+  region_code: 'ACT',
+  region_name: 'Australian Capital Territory',
+  city: 'Bonner',
+  zip_code: '2914',
+  time_zone: 'Australia/Sydney',
+  latitude: -35.1696,
+  longitude: 149.128,
+  metro_code: 0 }
+Current IP is 203.214.104.207
+Updating IP to http://@dynamic.zoneedit.com/dyn/jsclient.php?rsp_ident=zoneedit&hostname=roja-pc.ferryfair.com&wildcard=NO
+Update query status: 200
+<ERROR CODE="700" TEXT="no update required for roja-pc.ferryfair.com to 203.214.104.207" ZONE="roja-pc.ferryfair.com">
+
+2018-04-08T10:49:36.348Z
+Echoing current IP from http://freegeoip.net/json/
+{ __deprecation_message__: 'This API endpoint is deprecated and will stop working on July 1st, 2018. For more information please visit: https://github.com/apilayer/freegeoip#readme',
+  ip: '203.214.104.207',
+  country_code: 'AU',
+  country_name: 'Australia',
+  region_code: 'ACT',
+  region_name: 'Australian Capital Territory',
+  city: 'Bonner',
+  zip_code: '2914',
+  time_zone: 'Australia/Sydney',
+  latitude: -35.1696,
+  longitude: 149.128,
+  metro_code: 0 }
+Current IP is 203.214.104.207
+Updating IP to http://@dynamic.zoneedit.com/dyn/jsclient.php?rsp_ident=zoneedit&hostname=roja-pc.ferryfair.com&wildcard=NO
+Update query status: 200
+<ERROR CODE="702" PARAM="600" TEXT="Minimum 600 seconds between requests" ZONE="roja-pc.ferryfair.com">
+
+2018-04-08T10:59:38.999Z
+Echoing current IP from http://freegeoip.net/json/
+{ __deprecation_message__: 'This API endpoint is deprecated and will stop working on July 1st, 2018. For more information please visit: https://github.com/apilayer/freegeoip#readme',
+  ip: '203.214.104.207',
+  country_code: 'AU',
+  country_name: 'Australia',
+  region_code: 'ACT',
+  region_name: 'Australian Capital Territory',
+  city: 'Bonner',
+  zip_code: '2914',
+  time_zone: 'Australia/Sydney',
+  latitude: -35.1696,
+  longitude: 149.128,
+  metro_code: 0 }
+IP unchanged
+2018-04-08T11:09:40.258Z
+Echoing current IP from http://freegeoip.net/json/
+{ __deprecation_message__: 'This API endpoint is deprecated and will stop working on July 1st, 2018. For more information please visit: https://github.com/apilayer/freegeoip#readme',
+  ip: '203.214.104.207',
+  country_code: 'AU',
+  country_name: 'Australia',
+  region_code: 'ACT',
+  region_name: 'Australian Capital Territory',
+  city: 'Bonner',
+  zip_code: '2914',
+  time_zone: 'Australia/Sydney',
+  latitude: -35.1696,
+  longitude: 149.128,
+  metro_code: 0 }
+IP unchanged

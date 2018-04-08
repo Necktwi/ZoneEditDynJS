@@ -1,3 +1,1 @@
-@echo off
-node c:\Users\gowtham\workspace\ZoneEditDynJS\zoneedit-dynjs.js
-
+node zoneedit-dynjs.js >> ZoneEditDynJS.log

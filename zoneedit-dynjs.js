@@ -1,17 +1,20 @@
-var XMLHttpRequest = require("xmlhttprequest").
-XMLHttpRequest;
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var btoa = require('btoa');
+var fs = require('fs');
 
 var TimerID;
 var dnsurl;
 var freq = 10.01;
 var CurrentIP = '0.0.0.0';
 var IPServer = 'https://api.ipify.org?format=json';
+var config = JSON .parse (
+   fs .readFileSync ('/usr/local/etc/ZoneEditDynJS.json', 'utf8')
+);
 
 function buildurl(){
-	var u = 'bulbmaker';
-	var p = '16026C96480B7574';
-	var h = 'home.ferryfair.com';
+	var u = config.username;
+	var p = config.password;
+	var h = config.hostname;
 	var w = 'NO';
 
 	dnsurl = 'http://' +

@@ -6,12 +6,12 @@ var TimerID;
 var dnsurl;
 var freq = 10.01;
 var CurrentIP = '0.0.0.0';
-var IPServer = 'http://freegeoip.net/json/';
+var IPServer = 'https://api.ipify.org?format=json';
 
 function buildurl(){
 	var u = 'bulbmaker';
 	var p = '16026C96480B7574';
-	var h = 'roja-pc.ferryfair.com';
+	var h = 'home.ferryfair.com';
 	var w = 'NO';
 
 	dnsurl = 'http://' +
